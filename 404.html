@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevToys</title>
     <script>
-        if(location.pathname.startsWith("/app/devtoys/")) location.href="/app/devtoys"
+        if(location.pathname.startsWith("/app/devtoys")) {
+            let pathname = location.pathname.substring(13).split("/")[0]
+            pathname && localStorage.setItem("devtoys-last-router", pathname)
+            location.href="/app/devtoys"
+        }
     </script>
 </head>
 <body>
