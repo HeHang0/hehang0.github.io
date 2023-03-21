@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevToys</title>
     <script>
+        const devtoysRouterKey = "devtoys-router-history"
+        const devtoysRouter = localStorage.getItem(devtoysRouterKey)
+        if(!devtoysRouter) localStorage.setItem(devtoysRouterKey, JSON.stringify("/app/devtoys/"))
         location.href="/app/devtoys/"
     </script>
 </head>
