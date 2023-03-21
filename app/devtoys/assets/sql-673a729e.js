@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as n}from"./index-0e61cfa9.js";const o={};function r(t,s){return c(),n("main")}const _=e(o,[["render",r]]);export{_ as default};
