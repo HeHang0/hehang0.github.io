@@ -1,0 +1,44 @@
+[
+  {
+    "title": "DevToys",
+    "subtitle": "Web-based version of a Swiss Army knife for developers.",
+    "href": "/devtoys",
+    "icon": "/devtoys/logo.png"
+  },
+  {
+    "title": "Musiche",
+    "subtitle": "Web-based version of a Swiss Army knife for listener.",
+    "href": "/musiche/recommend",
+    "icon": "/musiche/logo-circle.png"
+  },
+  {
+    "title": "FileViewer",
+    "subtitle": "A Quick look file Desktop Client for windows.",
+    "href": "https://github.com/HeHang0/FileViewer/releases/latest",
+    "icon": "https://raw.githubusercontent.com/HeHang0/FileViewer/master/FileViewer/Resources/logo.ico"
+  },
+  {
+    "title": "ClipboardServer",
+    "subtitle": "A clipboard server for windows.",
+    "href": "https://github.com/HeHang0/ClipboardServer/releases/latest",
+    "icon": "https://hehang0.github.io/ClipboardServer/clipboard-black.ico"
+  },
+  {
+    "title": "WallHaven",
+    "subtitle": "A wallHaven desktop client for windows.",
+    "href": "https://github.com/HeHang0/WallHaven/releases/latest",
+    "icon": "https://raw.githubusercontent.com/HeHang0/WallHaven/master/logo.ico"
+  },
+  {
+    "title": "RunCat",
+    "subtitle": "A cute running cat animation on your windows taskbar.",
+    "href": "https://github.com/HeHang0/RunCat/releases/latest",
+    "icon": "https://raw.githubusercontent.com/HeHang0/RunCat/master/Resources/appIcon.ico"
+  },
+  {
+    "title": "AudioShare",
+    "subtitle": "Play Windows audio at android realtime.",
+    "href": "https://github.com/HeHang0/AudioShare/releases/latest",
+    "icon": "https://raw.githubusercontent.com/HeHang0/AudioShare/master/android/app/src/main/res/mipmap/ic_launcher.png"
+  }
+]
