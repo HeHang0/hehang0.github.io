@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      localStorage.setItem('devtoys-router-history', '"devtoys"');
+      localStorage.setItem('musiche-router-prefix', 'musiche');
+      if (!localStorage.getItem('musiche-proxy-address'))
+        localStorage.setItem(
+          'musiche-proxy-address',
+          'https://music.picapico.top/proxy'
+        );
+      const musicHeRouters = [
+        'recommend',
+        'yours',
+        'ranking',
+        'search',
+        'playlist',
+        'album',
+        'lover',
+        'recent',
+        'created',
+        'setting',
+        'local',
+        'musiche'
+      ];
+      function checkRouter() {
+        for (let i = 0; i < musicHeRouters.length; i++) {
+          const route = musicHeRouters[i];
+          if (location.pathname.startsWith('/' + route)) {
+            location.href =
+              '/musiche?redirect=' + encodeURIComponent(location.pathname);
+            return;
+          }
+        }
+        location.href =
+          '/devtoys?redirect=' + encodeURIComponent(location.pathname);
+      }
+      checkRouter();
+    </script>
+  </head>
+  <body></body>
+</html>
